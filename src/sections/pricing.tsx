@@ -98,7 +98,7 @@ export default function Pricing() {
 
         {/* plan 2 */}
         <SlideEffect isSpring={false} delay={0.2} className="flex flex-col gap-6 text-base">
-          <Card className="bg-secondary border-2 border-secondary relative">
+          <Card className="bg-secondary border-2 border-primary relative">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
               <div className="text-xs bg-primary px-3 py-1 rounded-full text-background font-medium">Most Popular</div>
             </div>
