@@ -3,7 +3,6 @@
 import Badge from "@/components/badge"
 import Card from "@/components/card"
 import SlideEffect from "@/components/slide-effect"
-import Image from "next/image"
 
 const settings = {
   badge: {
@@ -15,17 +14,14 @@ const settings = {
   card_1: {
     title: 'AI Tools Lab',
     content: 'Unlock powerful AI tools: summarizer, cram sheets, flashcard generator, and more to supercharge your study sessions.',
-    image: 'https://framerusercontent.com/images/3FWbibttHBsnge8Td2JRVbNo.svg'
   },
   card_2: {
     title: 'Smart Planner & Focus',
     content: 'Organize your study schedule with smart planning tools and built-in Pomodoro timer for maximum productivity.',
-    image: 'https://framerusercontent.com/images/eaFbEnL3er77EwtTIiUEMgYTLnQ.svg'
   },
   card_3: {
     title: 'Study Community',
     content: 'Access public study library, join study groups, and get wellness reminders to maintain a balanced study life.',
-    image: 'https://framerusercontent.com/images/82g4S0XdXlaUWPtoLMLmaJhP1yc.svg'
   },
 }
 
@@ -51,8 +47,7 @@ export default function Features3() {
         <SlideEffect direction="top" className="col-span-1 h-full" isSpring={false}>
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_1.title}</h3>
-            <p className="mb-4">{settings.card_1.content}</p>
-            <Image src={settings.card_1.image} alt={settings.card_1.title} width={512} height={512} />
+            <p>{settings.card_1.content}</p>
           </Card>
         </SlideEffect>
 
@@ -61,7 +56,6 @@ export default function Features3() {
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_2.title}</h3>
             <p>{settings.card_2.content}</p>
-            <Image src={settings.card_2.image} alt={settings.card_1.title} width={512} height={512} />
           </Card>
         </SlideEffect>
 
@@ -70,7 +64,6 @@ export default function Features3() {
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_3.title}</h3>
             <p>{settings.card_3.content}</p>
-            <Image src={settings.card_3.image} alt={settings.card_1.title} width={512} height={512} />
           </Card>
         </SlideEffect>
       </div>

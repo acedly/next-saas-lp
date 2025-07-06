@@ -2,9 +2,7 @@
 
 import Badge from "@/components/badge"
 import Card from "@/components/card"
-import FadeEffect from "@/components/fade-effect"
 import SlideEffect from "@/components/slide-effect"
-import Image from "next/image"
 
 const settings = {
   badge: {
@@ -16,12 +14,10 @@ const settings = {
   card_1: {
     title: 'Adaptive for All Exams',
     content: 'Comprehensive coverage for WAEC, JAMB, NECO, Post-UTME with department-level filtering to match your specific course requirements.',
-    image: 'https://framerusercontent.com/images/X87jAlbYbJ0hdTyTZ6QIMoQoOo.svg'
   },
   card_2: {
     title: 'Offline-First PWA',
     content: 'Study anywhere, anytime! Our Progressive Web App would works seamlessly offline, so poor internet never stops your progress.',
-    image: 'https://framerusercontent.com/images/A718dQKmWnJEhhnu0SJfCGxzDM.svg'
   },
 }
 
@@ -47,8 +43,7 @@ export default function Features2() {
         <SlideEffect direction="right" className="col-span-1 h-full" isSpring={false}>
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_1.title}</h3>
-            <p className="mb-4">{settings.card_1.content}</p>
-            <Image src={settings.card_1.image} alt={settings.card_1.title} width={512} height={512} />
+            <p>{settings.card_1.content}</p>
           </Card>
         </SlideEffect>
 
@@ -57,10 +52,6 @@ export default function Features2() {
           <Card>
             <h3 className="text-xl md:text-title text-black font-medium">{settings.card_2.title}</h3>
             <p>{settings.card_2.content}</p>
-            <div className="relative">
-              <Image src={settings.card_2.image} alt={settings.card_1.title} width={512} height={512} />
-              <FadeEffect color='secondary' />
-            </div>
           </Card>
         </SlideEffect>
       </div>
