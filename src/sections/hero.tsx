@@ -117,7 +117,7 @@ export default function Hero() {
                 <Star size={16} fill='oklch(0.795 0.184 86.047)' className="text-yellow-500" />
               </div>
 
-              <span className="text-xs">Trusted by 7,000+ Nigerian Students</span>
+              <span className="text-xs">Trusted by 1,000+ Nigerian Students</span>
             </div>
           </div>
         </SlideEffect>
