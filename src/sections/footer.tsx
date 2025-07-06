@@ -18,7 +18,7 @@ const settings = {
     { title: 'Linkedin', icon: Linkedin, href: '/' },
     { title: 'Youtube', icon: Youtube, href: '/' },
   ],
-  copyright: 'Built by Abdulmajeed | © 2025 Acedly. All rights reserved.'
+  copyright: 'Built by BALX Studio | © 2025 Acedly. All rights reserved.'
 }
 
 export default function Footer() {
