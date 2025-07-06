@@ -71,7 +71,7 @@ export default function Features4() {
         <SlideEffect direction="top" className="grid-cols-1 lg:col-span-2 h-full" isSpring={false}>
           <Card className="flex flex-col lg:flex-row justify-center items-center">
             <div className="space-y-3 md:space-y-5 flex-1">
-              <h3 className="text-xl md:text-title text-white font-medium">{settings.card_1.title}</h3>
+              <h3 className="text-xl md:text-title text-black font-medium">{settings.card_1.title}</h3>
               <p className="mb-8 lg:mb-16">{settings.card_1.content}</p>
               <Link href={settings.card_1.CTA.href}>
                 <Button variant="accent">{settings.card_1.CTA.content}</Button>
