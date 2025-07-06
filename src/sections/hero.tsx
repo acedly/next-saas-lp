@@ -11,8 +11,8 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Hello YouTube',
-  subheadline: 'Privacy-friendly web analytics made and hosted in Germany — powerful, cookie-free, and fully compliant with GDPR, CCPA, and PECR.',
+  headline: 'Ace any Exams',
+  subheadline: 'Master University, WAEC, JAMB, Post-UTME, and more — with Nigeria’s smartest study platform.',
   mainCTA: {
     content: 'try it for free',
     href: '#'
