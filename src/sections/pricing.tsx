@@ -50,7 +50,7 @@ const settings = {
     description: 'Everything in Daily Pass plus',
     cta: 'Go Pro',
     features: [
-      'AI Tools Lab (summarizer, flashcards)',
+      'AI Tools',
       'Smart study planner',
       'PDF tools & generators',
       'Custom study packs',
