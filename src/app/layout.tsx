@@ -11,7 +11,10 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Acedly - Ace Any Exam with AI-Powered CBT Challenges",
-  description: "Master WAEC, JAMB, Post-UTME, and more with Nigeria's smartest study platform. AI-powered CBT challenges, gamified learning, and comprehensive exam preparation."
+  description: "Master WAEC, JAMB, Post-UTME, and more with Nigeria's smartest study platform. AI-powered CBT challenges, gamified learning, and comprehensive exam preparation.",
+  icons: {
+    icon: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({
@@ -21,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body
         className={`${dmSans.className} antialiased w-full min-h-screen overflow-x-hidden`}
       >

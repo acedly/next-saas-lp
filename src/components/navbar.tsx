@@ -1,12 +1,12 @@
 'use client'
 
-import Logo from "./logo"
 import Link from "next/link"
 import { Button } from "./ui/button"
 import { AlignJustify, X } from "lucide-react"
 import { AnimatePresence } from 'motion/react'
 import * as motion from "motion/react-m"
 import { useState } from "react"
+import Image from "next/image"
 
 const settings = {
   navLinks: [
@@ -33,7 +33,14 @@ export default function Navbar() {
     <nav className="w-full h-fit py-4 flex items-center justify-between bg-white shadow-sm border-b border-border">
       {/* Logo */}
       <Link href='/' title="Home" id="Logo">
-        <Logo className="text-primary" />
+        <Image 
+          src="/acenav.png" 
+          alt="Acedly Logo" 
+          width={120} 
+          height={40} 
+          className="h-8 w-auto"
+          priority
+        />
       </Link>
 
       {/* desktop menu */}
