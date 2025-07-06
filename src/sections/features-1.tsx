@@ -38,7 +38,7 @@ const settings = {
   card_4: {
     title: 'Learn From Mistakes',
     content: 'Retry packs, review detailed explanations, and track your improvement over time. Every mistake becomes a stepping stone to success.',
-    image: 'https://framerusercontent.com/images/6jTglLZFhLYMIuOe7EC0QFeykU.png?scale-down-to=512',
+    image: 'https://w7.pngwing.com/pngs/146/861/png-transparent-loop-arrow-refresh-repeat-reload-sync-3d-icon.png?scale-down-to=512',
   },
 }
 
