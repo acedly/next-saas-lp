@@ -21,7 +21,7 @@ const settings = {
     content: 'Explore All Features',
     href: '#'
   },
-  illustration: '/illustration.svg',
+  illustration: '/Screenshot 2025-07-06 122833.png',
   reviews: [
     {
       name: "Adebayo Ogundimu",
