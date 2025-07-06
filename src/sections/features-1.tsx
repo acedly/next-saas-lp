@@ -23,7 +23,7 @@ const settings = {
       'https://carissahillsinternationalschools.sch.ng/wp-content/uploads/2024/11/nerdc__1_-removebg-preview.png',
       'https://www.uniport.edu.ng/wp-content/themes/unipix/assets/images/logo/uniport_logo.png',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TS-1vYJs36NX0pbAgnPROXNBpXlSA1wDzg&s',
-      'https://cdn.worldvectorlogo.com/logos/golang-1.svg',
+      'https://acedly.xyz/favicon.ico',
       'https://cdn.worldvectorlogo.com/logos/rust.svg',
     ]
   },
