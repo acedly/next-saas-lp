@@ -20,7 +20,7 @@ const settings = {
   },
   card_2: {
     title: 'Offline-First PWA',
-    content: 'Study anywhere, anytime! Our Progressive Web App works seamlessly offline, so poor internet never stops your progress.',
+    content: 'Study anywhere, anytime! Our Progressive Web App would works seamlessly offline, so poor internet never stops your progress.',
     image: 'https://framerusercontent.com/images/A718dQKmWnJEhhnu0SJfCGxzDM.svg'
   },
 }
