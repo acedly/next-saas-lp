@@ -9,7 +9,7 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 2,
-    text: 'BUILT FOR NIGERIAN STUDENTS',
+    text: 'FOR STUDENTS BY STUDENTS',
   },
   title: 'Built for Nigerian Students',
   description: 'Adaptive for all major Nigerian exams with department-level filtering, offline-first experience, and flexible micro-unlocks that fit your budget.',
