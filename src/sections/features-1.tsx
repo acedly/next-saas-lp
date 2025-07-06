@@ -17,7 +17,7 @@ const settings = {
     title: 'AI-Generated + Past Questions',
     content: 'Get unlimited practice with AI-generated questions plus comprehensive past question banks for WAEC, JAMB, NECO, and Post-UTME.',
     carousel_images: [
-      'https://cdn.worldvectorlogo.com/logos/react-2.svg',
+      'https://i0.wp.com/kwarastate.gov.ng/wp-content/uploads/unilorin-logo.jpeg',
       'https://cdn.worldvectorlogo.com/logos/vue-9.svg',
       'https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg',
       'https://cdn.worldvectorlogo.com/logos/nestjs.svg',
