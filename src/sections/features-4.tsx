@@ -74,7 +74,7 @@ export default function Features4() {
               <h3 className="text-xl md:text-title text-black font-medium">{settings.card_1.title}</h3>
               <p className="mb-8 lg:mb-16">{settings.card_1.content}</p>
               <Link href={settings.card_1.CTA.href}>
-                <Button className="bg-accent">{settings.card_1.CTA.content}</Button>
+                <Button variant="accent">{settings.card_1.CTA.content}</Button>
               </Link>
             </div>
 

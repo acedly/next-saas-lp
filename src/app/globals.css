@@ -3,12 +3,13 @@
 
 @theme {
   --color-background: #ffffff;
-  --color-foreground: #707070;
-  --color-primary: #6ECE9D;
+  --color-foreground: #212121;
+  --color-primary: #2F3CFF;
   --color-secondary: #F8F5ED;
-  --color-accent: #FFDA6E;
-  --color-muted: #F0F0F0;
-  --color-border: rgba(0, 0, 0, 0.1);
+  --color-accent: #00E676;
+  --color-muted: #F2F2F2;
+  --color-border: #E0E0E0;
+  --color-destructive: #FF5252;
 
   --text-base: 18px;
   --text-link: 16px;
@@ -29,3 +30,49 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom utility classes for Acedly brand colors */
+.text-primary-brand {
+  color: #2F3CFF;
+}
+
+.bg-primary-brand {
+  background-color: #2F3CFF;
+}
+
+.text-accent-brand {
+  color: #00E676;
+}
+
+.bg-accent-brand {
+  background-color: #00E676;
+}
+
+.border-primary-brand {
+  border-color: #2F3CFF;
+}
+
+.border-accent-brand {
+  border-color: #00E676;
+}
+
+/* Hover states */
+.hover\:bg-primary-brand:hover {
+  background-color: #1A2AFF;
+}
+
+.hover\:text-primary-brand:hover {
+  color: #2F3CFF;
+}
+
+.hover\:border-accent-brand:hover {
+  border-color: #00E676;
+}
+
+/* Focus states for accessibility */
+.focus\:ring-primary-brand:focus {
+  --tw-ring-color: #2F3CFF;
+}
+
+.focus\:border-primary-brand:focus {
+  border-color: #2F3CFF;
+}

@@ -74,20 +74,20 @@ export default function Pricing() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* plan 1 */}
         <SlideEffect isSpring={false} delay={0.1} className="text-base">
-          <Card className="bg-white">
+          <Card className="bg-white border border-border">
             <div className="capitalize text-start text-black">{settings.plan_1.planName}</div>
             <div className="flex items-baseline gap-1">
               <span className="font-medium text-4xl text-black">{settings.plan_1.currency}{settings.plan_1.price}</span>
               <span className="text-sm">/month</span>
             </div>
-            <Button className="w-full">{settings.plan_1.cta}</Button>
+            <Button className="w-full" variant="outline">{settings.plan_1.cta}</Button>
             <div className="text-start space-y-6">
               <p className="text-black text-sm">{settings.plan_1.description}</p>
 
               <div className="flex flex-col items-start gap-4 text-sm">
                 {settings.plan_1.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-primary" size={16} />
+                    <CircleCheck className="text-accent" size={16} />
                     <span>{feature}</span>
                   </div>
                 ))}
@@ -98,10 +98,12 @@ export default function Pricing() {
 
         {/* plan 2 */}
         <SlideEffect isSpring={false} delay={0.2} className="flex flex-col gap-6 text-base">
-          <Card className="bg-secondary">
+          <Card className="bg-secondary border-2 border-primary relative">
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+              <div className="text-xs bg-accent px-3 py-1 rounded-full text-foreground font-medium">Most Popular</div>
+            </div>
             <div className="w-full flex items-center gap-2 justify-between">
               <div className="capitalize text-start text-black">{settings.plan_2.planName}</div>
-              <div className="text-xs bg-accent px-2 py-1 rounded-full text-black capitalize">most popular</div>
             </div>
             <div className="flex items-baseline gap-1">
               <span className="font-medium text-4xl text-black">{settings.plan_2.currency}{settings.plan_2.price}</span>
@@ -114,7 +116,7 @@ export default function Pricing() {
               <div className="flex flex-col items-start gap-4 text-sm">
                 {settings.plan_2.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-primary" size={16} />
+                    <CircleCheck className="text-accent" size={16} />
                     <span>{feature}</span>
                   </div>
                 ))}
@@ -125,20 +127,20 @@ export default function Pricing() {
 
         {/* plan 3 */}
         <SlideEffect isSpring={false} delay={0.3} className="flex flex-col gap-6 text-base">
-          <Card className="bg-white">
+          <Card className="bg-white border border-border">
             <div className="capitalize text-start text-black">{settings.plan_3.planName}</div>
             <div className="flex items-baseline gap-1">
               <span className="font-medium text-4xl text-black">{settings.plan_3.currency}{settings.plan_3.price}</span>
               <span className="text-sm">/month</span>
             </div>
-            <Button className="w-full">{settings.plan_3.cta}</Button>
+            <Button className="w-full" variant="outline">{settings.plan_3.cta}</Button>
             <div className="text-start space-y-6">
               <p className="text-black text-sm">{settings.plan_3.description}</p>
 
               <div className="flex flex-col items-start gap-4 text-sm">
                 {settings.plan_3.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-primary" size={16} />
+                    <CircleCheck className="text-accent" size={16} />
                     <span>{feature}</span>
                   </div>
                 ))}
