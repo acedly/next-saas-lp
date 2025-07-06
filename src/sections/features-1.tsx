@@ -9,13 +9,13 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 1,
-    text: 'get started in seconds',
+    text: 'CBT SHOULDN\'T BE GUESSWORK',
   },
-  title: 'Set Up in Minutes',
-  description: 'Simply add the script to your site, choose from a variety of plugins, or go for the API backend integration. Pirsch is the plug-and-play Google Analytics alternative.',
+  title: 'CBT Shouldn\'t Be Guesswork. It Should Be a Game.',
+  description: 'Experience the smartest way to prepare for Nigerian exams with AI-powered challenges, real-time competition, and gamified learning.',
   card_1: {
-    title: 'Effortless Setup',
-    content: 'Pirsch offers plugins, libraries, and tutorials for the most popular CMSs, website builders, and programming languages to get you up and running in no time.',
+    title: 'AI-Generated + Past Questions',
+    content: 'Get unlimited practice with AI-generated questions plus comprehensive past question banks for WAEC, JAMB, NECO, and Post-UTME.',
     carousel_images: [
       'https://cdn.worldvectorlogo.com/logos/react-2.svg',
       'https://cdn.worldvectorlogo.com/logos/vue-9.svg',
@@ -28,16 +28,16 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Seamless Switch',
-    content: 'Migrating from other web analytics solutions? Import your data from Plausible, Fathom, or Google Analytics in just a few clicks and easily continue where you left off.'
+    title: 'Timed Quizzes & Duels',
+    content: 'Challenge yourself with timed quizzes, compete on leaderboards, and duel with friends to make studying competitive and fun.'
   },
   card_3: {
-    title: 'No Cookie Banner',
-    content: 'Say goodbye to consent banners: Pirsch works without cookies and never stores your visitors personal identifiable information.'
+    title: 'Earn Points & Ranks',
+    content: 'Level up your study game! Earn XP points, unlock achievements, and climb the ranks as you master each subject.'
   },
   card_4: {
-    title: 'Privacy-Friendly by Design',
-    content: 'Built from the ground up with privacy in mind and with an open-source core, Pirsch offers uncompromising GDPR, CCPA, PECR, and Schrems II compliant data protection. All data is hosted on a secure server cluster in Germany.',
+    title: 'Learn From Mistakes',
+    content: 'Retry packs, review detailed explanations, and track your improvement over time. Every mistake becomes a stepping stone to success.',
     image: 'https://framerusercontent.com/images/6jTglLZFhLYMIuOe7EC0QFeykU.png?scale-down-to=512',
   },
 }

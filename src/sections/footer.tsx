@@ -5,11 +5,11 @@ import Link from "next/link"
 
 const settings = {
   links: [
-    { title: 'About', href: '/' },
-    { title: 'Blog', href: '/' },
-    { title: 'Jobs', href: '/' },
-    { title: 'Press', href: '/' },
-    { title: 'Affiliate', href: '/' },
+    { title: 'CBT', href: '/' },
+    { title: 'Features', href: '#features' },
+    { title: 'Pricing', href: '#pricing' },
+    { title: 'Support', href: '/' },
+    { title: 'Ambassadors', href: '/' },
     { title: 'Contact Us', href: '/' },
   ],
   socialMedia: [
@@ -18,7 +18,7 @@ const settings = {
     { title: 'Github', icon: Github, href: '/' },
     { title: 'Youtube', icon: Youtube, href: '/' },
   ],
-  copyright: '© 2024 Your Company, Inc. All rights reserved.'
+  copyright: 'Built by Abdulmajeed | © 2025 Acedly. All rights reserved.'
 }
 
 export default function Footer() {

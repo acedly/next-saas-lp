@@ -8,23 +8,23 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 3,
-    text: 'ADVANCED ANALYTICS',
+    text: 'THE ACEDLY ADVANTAGE',
   },
-  title: 'Dive Into the Details',
-  description: 'See beyond clicks with the power of events, A/B testing, and tag-based segmentation, drill down into single sessions, or track your performance with flexible conversion goals.',
+  title: 'More Than CBT. Acedly is Your All-In-One Study Sidekick.',
+  description: 'Today CBT. Tomorrow everything else. Experience the future of studying with our comprehensive ecosystem of AI-powered tools.',
   card_1: {
-    title: 'Analyze Funnels',
-    content: 'Effectively visualize and fully understand user journeys in a matter of seconds.',
+    title: 'AI Tools Lab',
+    content: 'Unlock powerful AI tools: summarizer, cram sheets, flashcard generator, and more to supercharge your study sessions.',
     image: 'https://framerusercontent.com/images/3FWbibttHBsnge8Td2JRVbNo.svg'
   },
   card_2: {
-    title: 'Explore Sessions',
-    content: 'Learn more about individual user journeys with in-depth session summaries.',
+    title: 'Smart Planner & Focus',
+    content: 'Organize your study schedule with smart planning tools and built-in Pomodoro timer for maximum productivity.',
     image: 'https://framerusercontent.com/images/eaFbEnL3er77EwtTIiUEMgYTLnQ.svg'
   },
   card_3: {
-    title: 'Segment Visitors',
-    content: 'Leverage your data with tags for A/B testing or segmentation and channel attribution.',
+    title: 'Study Community',
+    content: 'Access public study library, join study groups, and get wellness reminders to maintain a balanced study life.',
     image: 'https://framerusercontent.com/images/82g4S0XdXlaUWPtoLMLmaJhP1yc.svg'
   },
 }

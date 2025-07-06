@@ -17,7 +17,7 @@ const settings = {
     { name: 'FAQ', href: '#faq' },
   ],
   cta: {
-    content: 'try it for free',
+    content: 'Start CBT Challenge',
     href: '/'
   }
 }

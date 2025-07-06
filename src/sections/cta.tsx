@@ -5,10 +5,14 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const settings = {
-  title: 'Start using our app today.',
-  description: 'Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.',
+  title: 'Start Practicing Smarter — Right Now.',
+  description: 'Join thousands of Nigerian students who are already acing their exams with Acedly\'s AI-powered CBT challenges.',
   CTA: {
-    content: 'Start your free trial',
+    content: 'Launch CBT Challenge',
+    href: '#'
+  },
+  secondaryCTA: {
+    content: 'Join the Waitlist',
     href: '#'
   }
 }
@@ -22,10 +26,15 @@ export default function CTA() {
       {/* Description */}
       <p className="px-0 sm:px-10 md:px-0 w-full max-w-full md:max-w-3/4 mx-auto text-sm lg:text-base">{settings.description}</p>
 
-      {/* CTA */}
-      <Link href={settings.CTA.href}>
-        <Button className="w-full" size='lg'>{settings.CTA.content}</Button>
-      </Link>
+      {/* CTAs */}
+      <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto">
+        <Link href={settings.CTA.href}>
+          <Button className="w-full md:w-auto" size='lg'>{settings.CTA.content}</Button>
+        </Link>
+        <Link href={settings.secondaryCTA.href}>
+          <Button className="w-full md:w-auto" size='lg' variant='secondary'>{settings.secondaryCTA.content}</Button>
+        </Link>
+      </div>
     </SlideEffect>
   )
 }

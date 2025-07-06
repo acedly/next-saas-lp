@@ -9,18 +9,18 @@ import Image from "next/image"
 const settings = {
   badge: {
     number: 2,
-    text: 'INSTANT OUTPUT',
+    text: 'BUILT FOR NIGERIAN STUDENTS',
   },
-  title: 'Unlock Key Insights',
-  description: 'With a powerful yet easy-to-use dashboard, you can access the most relevant data necessary to understand your customers and make the right decisions.',
+  title: 'Built for Nigerian Students',
+  description: 'Adaptive for all major Nigerian exams with department-level filtering, offline-first experience, and flexible micro-unlocks that fit your budget.',
   card_1: {
-    title: 'Track Everything You Need',
-    content: 'With a wide range of data points, you get a detailed understanding of your visitors and target audience.',
+    title: 'Adaptive for All Exams',
+    content: 'Comprehensive coverage for WAEC, JAMB, NECO, Post-UTME with department-level filtering to match your specific course requirements.',
     image: 'https://framerusercontent.com/images/X87jAlbYbJ0hdTyTZ6QIMoQoOo.svg'
   },
   card_2: {
-    title: 'Filter With One Click',
-    content: 'Pirsch makes it effortless to explore your stats through intuitive filtering on a super-fast, highly visual dashboard.',
+    title: 'Offline-First PWA',
+    content: 'Study anywhere, anytime! Our Progressive Web App works seamlessly offline, so poor internet never stops your progress.',
     image: 'https://framerusercontent.com/images/A718dQKmWnJEhhnu0SJfCGxzDM.svg'
   },
 }

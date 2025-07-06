@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Next SaaS",
-  description: "Change this"
+  title: "Acedly - Ace Any Exam with AI-Powered CBT Challenges",
+  description: "Master WAEC, JAMB, Post-UTME, and more with Nigeria's smartest study platform. AI-powered CBT challenges, gamified learning, and comprehensive exam preparation."
 };
 
 export default function RootLayout({

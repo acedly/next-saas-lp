@@ -12,44 +12,44 @@ import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
   headline: 'Ace Any Exam with AI-Powered CBT Challenges',
-  subheadline: 'Master University, WAEC, JAMB, Post-UTME, and more — with Nigeria’s smartest study platform.',
+  subheadline: 'Master WAEC, JAMB, Post-UTME, and more — with Nigeria\'s smartest study platform.',
   mainCTA: {
-    content: 'try it for free',
+    content: 'Start a CBT Challenge',
     href: '#'
   },
   secondaryCTA: {
-    content: 'view live demo',
+    content: 'Explore All Features',
     href: '#'
   },
   illustration: '/illustration.svg',
   reviews: [
     {
-      name: "John Doe",
-      designation: "Software Engineer",
+      name: "Adebayo Ogundimu",
+      designation: "Computer Science Student",
       image:
         "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
     },
     {
-      name: "Robert Johnson",
-      designation: "Product Manager",
+      name: "Fatima Ibrahim",
+      designation: "Medicine Student",
       image:
         "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Jane Smith",
-      designation: "Data Scientist",
+      name: "Chioma Okeke",
+      designation: "Engineering Student",
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Emily Davis",
-      designation: "UX Designer",
+      name: "Emeka Nwosu",
+      designation: "Law Student",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     {
-      name: "Tyler Durden",
-      designation: "Soap Developer",
+      name: "Khadijah Yusuf",
+      designation: "Pharmacy Student",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     }
@@ -117,7 +117,7 @@ export default function Hero() {
                 <Star size={16} fill='oklch(0.795 0.184 86.047)' className="text-yellow-500" />
               </div>
 
-              <span className="text-xs">Trusted by 500+ Customers</span>
+              <span className="text-xs">Trusted by 7,000+ Nigerian Students</span>
             </div>
           </div>
         </SlideEffect>
@@ -126,7 +126,7 @@ export default function Hero() {
         <SlideEffect className="relative" isSpring={false} duration={1.3}>
           <Image
             src={settings.illustration}
-            alt='illustration'
+            alt='Acedly CBT Platform'
             width={1920}
             height={1080}
             priority

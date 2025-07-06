@@ -6,56 +6,55 @@ import { Button } from "@/components/ui/button"
 import { CircleCheck } from "lucide-react"
 
 const settings = {
-  title: 'Pricing',
-  description: 'Discover the benefits of the best Google Analytics alternative with a free 30-day trial with no credit card required. Starting at only $6 per month for 10,000 monthly page views.',
+  title: 'Pay Once, Win More.',
+  description: 'Flexible pricing that fits your budget. Start free and upgrade when you\'re ready to unlock the full power of AI-driven studying.',
   plan_1: {
-    planName: 'basic',
-    price: 6,
-    currency: '$',
-    description: 'For individuals looking to up their productivity gains.',
-    cta: 'start your free trial',
+    planName: 'Free',
+    price: 0,
+    currency: '₦',
+    description: 'Perfect for trying out Acedly and light practice sessions.',
+    cta: 'Get Started Free',
     features: [
-      '50 Websites',
-      'Unlimited Members',
-      'Unlimited Data Retention',
-      'Events & Conversion Goals',
-      'Session Analysis',
-      'Built-In URL Shortener',
-      'RESTful API & SDKs',
-      '100% Data Ownership',
-      'Google Analytics Import'
+      '5 CBT challenges per month',
+      'Basic past questions',
+      'Leaderboard access',
+      'Progress tracking',
+      'Offline mode',
+      'Basic explanations',
     ]
   },
   plan_2: {
-    planName: 'Plus',
-    price: 12,
-    currency: '$',
-    description: 'For individuals looking to up their productivity gains.',
-    cta: 'start your free trial',
+    planName: 'Daily Pass',
+    price: 200,
+    currency: '₦',
+    description: 'Unlimited access for intensive study sessions.',
+    cta: 'Get Daily Pass',
     features: [
-      'Unlimited Websites',
-      'Funnels',
-      'Advanced URL Shortener',
-      'Organizations',
-      'A/B Testing & Segmentation',
-      'Custom Domains',
-      'Custom Themes',
-      'Priority Support',
+      'Unlimited CBT challenges',
+      'AI-generated questions',
+      'All past question banks',
+      'Detailed explanations',
+      'Timed practice modes',
+      'Duel with friends',
+      'Advanced analytics',
+      'Priority support',
     ]
   },
   plan_3: {
-    planName: 'Enterprise',
-    price: 19,
-    currency: '$',
-    description: 'For those looking to up their productivity gains.',
-    cta: 'start your free trial',
+    planName: 'Pro Monthly',
+    price: 2000,
+    currency: '₦',
+    description: 'Full ecosystem access with all AI tools and features.',
+    cta: 'Go Pro',
     features: [
-      'Managed Cloud Setup',
-      'On-premise Installation',
-      'SAML-based Single Sign-On',
-      'Raw Data Access',
-      'Personal Onboarding',
-      'Online User Training',
+      'Everything in Daily Pass',
+      'AI Tools Lab (summarizer, flashcards)',
+      'Smart study planner',
+      'PDF tools & generators',
+      'Custom study packs',
+      'Wellness reminders',
+      'Advanced progress analytics',
+      'Early access to new features',
     ]
   },
 }
@@ -106,7 +105,7 @@ export default function Pricing() {
             </div>
             <div className="flex items-baseline gap-1">
               <span className="font-medium text-4xl text-black">{settings.plan_2.currency}{settings.plan_2.price}</span>
-              <span className="text-sm">/month</span>
+              <span className="text-sm">/day</span>
             </div>
             <Button className="w-full">{settings.plan_2.cta}</Button>
             <div className="text-start space-y-6">

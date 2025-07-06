@@ -11,25 +11,25 @@ import Link from "next/link"
 const settings = {
   badge: {
     number: 4,
-    text: 'SMART TEAMWORK',
+    text: 'REWARDS & ACHIEVEMENTS',
   },
-  title: 'Empower People With Data',
-  description: 'Reduce friction and enhance productivity by getting the right information to the right people with minimal effort, enabling them to thrive and excel.',
+  title: 'Track Progress, Earn Rewards',
+  description: 'Stay motivated with our comprehensive tracking system. Earn badges, climb leaderboards, and unlock achievements as you master each subject.',
   card_1: {
-    title: 'Easily Manage Teams and Sites',
-    content: "Work happens in teams. That's why Pirsch enables collaboration right from the start: Simply invite team members or clients via email, assign them roles, and give them access to the dashboards they need to excel. All people, sites and custom themes in one place.",
+    title: 'Points, Badges & Leaderboards',
+    content: "Gamify your learning experience! Earn XP points for every correct answer, unlock exclusive badges for milestones, and compete with thousands of students on our real-time leaderboards.",
     CTA: {
-      content: 'Start 30-day Free Trial',
+      content: 'Try Free Challenge Now',
       href: '#'
     },
     labels: [
-      'my-site.com',
-      'example.com',
-      'my-saas.ai',
-      'my-blog.com',
-      'potfolio.me',
-      'new-site.com',
-      'client-site.io',
+      'Mathematics',
+      'English',
+      'Physics',
+      'Chemistry',
+      'Biology',
+      'Economics',
+      'Government',
     ],
     avatars: [
       'https://avatar.iran.liara.run/public/38',
@@ -42,12 +42,12 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Receive Automatic Email Reports',
-    content: 'Keep colleagues, customers, or partners in the loop with automatic email reports. Regularly receive a concise summary of the latest activities with just one click.',
+    title: 'Task & Progress Tracker',
+    content: 'Monitor your study goals, track completion rates, and visualize your improvement across all subjects with detailed analytics.',
   },
   card_3: {
-    title: 'Share Dashboards With Anybody',
-    content: 'Working with external partners? Create unique access links to securely grant access to dashboards or make them public on your personal subdomain.',
+    title: 'Study Streaks & Reminders',
+    content: 'Build consistent study habits with streak tracking and smart reminders for study sessions, prayer times, and wellness breaks.',
   },
 }
 
