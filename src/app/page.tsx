@@ -8,6 +8,7 @@ import Footer from "@/sections/footer";
 import Hero from "@/sections/hero";
 import Pricing from "@/sections/pricing";
 import Testimonials from "@/sections/testimonials";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function HomePage() {
   return (
