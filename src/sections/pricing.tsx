@@ -1,6 +1,5 @@
 'use client'
 
-import Card from "@/components/card"
 import SlideEffect from "@/components/slide-effect"
 import { Button } from "@/components/ui/button"
 import { CircleCheck } from "lucide-react"
@@ -12,6 +11,7 @@ const settings = {
     planName: 'Free',
     price: 0,
     currency: '₦',
+    period: '/month',
     description: 'Perfect for trying out Acedly and light practice sessions.',
     cta: 'Get Started Free',
     features: [
@@ -27,7 +27,8 @@ const settings = {
     planName: 'Daily Pass',
     price: 200,
     currency: '₦',
-    description: 'Unlimited access for intensive study sessions.',
+    period: '/day',
+    description: 'Everything in Free plus',
     cta: 'Get Daily Pass',
     features: [
       'Unlimited CBT challenges',
@@ -38,16 +39,17 @@ const settings = {
       'Duel with friends',
       'Advanced analytics',
       'Priority support',
-    ]
+    ],
+    highlighted: true
   },
   plan_3: {
     planName: 'Pro Monthly',
     price: 2000,
     currency: '₦',
-    description: 'Full ecosystem access with all AI tools and features.',
+    period: '/month',
+    description: 'Everything in Daily Pass plus',
     cta: 'Go Pro',
     features: [
-      'Everything in Daily Pass',
       'AI Tools Lab (summarizer, flashcards)',
       'Smart study planner',
       'PDF tools & generators',
@@ -55,6 +57,7 @@ const settings = {
       'Wellness reminders',
       'Advanced progress analytics',
       'Early access to new features',
+      'Premium support',
     ]
   },
 }
@@ -71,82 +74,109 @@ export default function Pricing() {
       <SlideEffect className="px-2 sm:px-10 md:px-0 w-full md:max-w-3/4 mx-auto text-sm lg:text-base">{settings.description}</SlideEffect>
 
       {/* Pricing Plans */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* plan 1 */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        {/* Plan 1 - Free */}
         <SlideEffect isSpring={false} delay={0.1} className="text-base">
-          <Card className="bg-white border border-border">
-            <div className="capitalize text-start text-black">{settings.plan_1.planName}</div>
-            <div className="flex items-baseline gap-1">
-              <span className="font-medium text-4xl text-black">{settings.plan_1.currency}{settings.plan_1.price}</span>
-              <span className="text-sm">/month</span>
+          <div className="bg-white rounded-2xl border border-gray-200 p-8 h-full flex flex-col relative">
+            {/* Header */}
+            <div className="text-left mb-6">
+              <div className="flex items-center gap-2 mb-2">
+                <div className="w-3 h-3 rounded-full bg-gray-400"></div>
+                <h3 className="text-lg font-semibold text-black">{settings.plan_1.planName}</h3>
+              </div>
+              <div className="flex items-baseline gap-1 mb-3">
+                <span className="font-bold text-4xl text-black">{settings.plan_1.currency}{settings.plan_1.price}</span>
+                <span className="text-gray-500 text-sm uppercase tracking-wide">{settings.plan_1.period}</span>
+              </div>
+              <p className="text-gray-600 text-sm">{settings.plan_1.description}</p>
             </div>
-            <Button className="w-full" variant="outline">{settings.plan_1.cta}</Button>
-            <div className="text-start space-y-6">
-              <p className="text-black text-sm">{settings.plan_1.description}</p>
 
-              <div className="flex flex-col items-start gap-4 text-sm">
+            {/* Features */}
+            <div className="flex-1 mb-8">
+              <div className="space-y-4">
                 {settings.plan_1.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-accent" size={16} />
-                    <span>{feature}</span>
+                  <div key={index} className="flex items-start gap-3">
+                    <CircleCheck className="text-accent mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm text-gray-700">{feature}</span>
                   </div>
                 ))}
               </div>
             </div>
-          </Card>
+
+            {/* CTA */}
+            <Button className="w-full" variant="outline" size="lg">{settings.plan_1.cta}</Button>
+          </div>
         </SlideEffect>
 
-        {/* plan 2 */}
-        <SlideEffect isSpring={false} delay={0.2} className="flex flex-col gap-6 text-base">
-          <Card className="bg-secondary border-2 border-primary relative">
+        {/* Plan 2 - Daily Pass (Highlighted) */}
+        <SlideEffect isSpring={false} delay={0.2} className="text-base">
+          <div className="bg-white rounded-2xl border-2 border-primary p-8 h-full flex flex-col relative shadow-lg">
+            {/* Popular badge */}
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <div className="text-xs bg-primary px-3 py-1 rounded-full text-background font-medium">Most Popular</div>
+              <div className="text-xs bg-primary px-4 py-1.5 rounded-full text-white font-medium">Most Popular</div>
             </div>
-            <div className="w-full flex items-center gap-2 justify-between">
-              <div className="capitalize text-start text-black">{settings.plan_2.planName}</div>
-            </div>
-            <div className="flex items-baseline gap-1">
-              <span className="font-medium text-4xl text-black">{settings.plan_2.currency}{settings.plan_2.price}</span>
-              <span className="text-sm">/day</span>
-            </div>
-            <Button className="w-full">{settings.plan_2.cta}</Button>
-            <div className="text-start space-y-6">
-              <p className="text-black text-sm">{settings.plan_2.description}</p>
 
-              <div className="flex flex-col items-start gap-4 text-sm">
+            {/* Header */}
+            <div className="text-left mb-6">
+              <div className="flex items-center gap-2 mb-2">
+                <div className="w-3 h-3 rounded-full bg-primary"></div>
+                <h3 className="text-lg font-semibold text-black">{settings.plan_2.planName}</h3>
+              </div>
+              <div className="flex items-baseline gap-1 mb-3">
+                <span className="font-bold text-4xl text-black">{settings.plan_2.currency}{settings.plan_2.price}</span>
+                <span className="text-gray-500 text-sm uppercase tracking-wide">{settings.plan_2.period}</span>
+              </div>
+              <p className="text-gray-600 text-sm">{settings.plan_2.description}</p>
+            </div>
+
+            {/* Features */}
+            <div className="flex-1 mb-8">
+              <div className="space-y-4">
                 {settings.plan_2.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-accent" size={16} />
-                    <span>{feature}</span>
+                  <div key={index} className="flex items-start gap-3">
+                    <CircleCheck className="text-accent mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm text-gray-700">{feature}</span>
                   </div>
                 ))}
               </div>
             </div>
-          </Card>
+
+            {/* CTA */}
+            <Button className="w-full" size="lg">{settings.plan_2.cta}</Button>
+          </div>
         </SlideEffect>
 
-        {/* plan 3 */}
-        <SlideEffect isSpring={false} delay={0.3} className="flex flex-col gap-6 text-base">
-          <Card className="bg-white border border-border">
-            <div className="capitalize text-start text-black">{settings.plan_3.planName}</div>
-            <div className="flex items-baseline gap-1">
-              <span className="font-medium text-4xl text-black">{settings.plan_3.currency}{settings.plan_3.price}</span>
-              <span className="text-sm">/month</span>
+        {/* Plan 3 - Pro Monthly */}
+        <SlideEffect isSpring={false} delay={0.3} className="text-base">
+          <div className="bg-white rounded-2xl border border-gray-200 p-8 h-full flex flex-col relative">
+            {/* Header */}
+            <div className="text-left mb-6">
+              <div className="flex items-center gap-2 mb-2">
+                <div className="w-3 h-3 rounded-full bg-gray-400"></div>
+                <h3 className="text-lg font-semibold text-black">{settings.plan_3.planName}</h3>
+              </div>
+              <div className="flex items-baseline gap-1 mb-3">
+                <span className="font-bold text-4xl text-black">{settings.plan_3.currency}{settings.plan_3.price}</span>
+                <span className="text-gray-500 text-sm uppercase tracking-wide">{settings.plan_3.period}</span>
+              </div>
+              <p className="text-gray-600 text-sm">{settings.plan_3.description}</p>
             </div>
-            <Button className="w-full" variant="outline">{settings.plan_3.cta}</Button>
-            <div className="text-start space-y-6">
-              <p className="text-black text-sm">{settings.plan_3.description}</p>
 
-              <div className="flex flex-col items-start gap-4 text-sm">
+            {/* Features */}
+            <div className="flex-1 mb-8">
+              <div className="space-y-4">
                 {settings.plan_3.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CircleCheck className="text-accent" size={16} />
-                    <span>{feature}</span>
+                  <div key={index} className="flex items-start gap-3">
+                    <CircleCheck className="text-accent mt-0.5 flex-shrink-0" size={16} />
+                    <span className="text-sm text-gray-700">{feature}</span>
                   </div>
                 ))}
               </div>
             </div>
-          </Card>
+
+            {/* CTA */}
+            <Button className="w-full" variant="outline" size="lg">{settings.plan_3.cta}</Button>
+          </div>
         </SlideEffect>
       </div>
     </div>
