@@ -83,13 +83,14 @@ export const AnimatedTestimonials = ({
                     {/* Testimonial quote */}
                     <div className="flex-1 flex items-center">
                       <motion.p 
-                        className="text-xl md:text-2xl font-medium text-black leading-relaxed"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                      >
-                        "{testimonial.quote}"
-                      </motion.p>
+  className="text-xl md:text-2xl font-medium text-black leading-relaxed"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.2, duration: 0.5 }}
+>
+  {testimonial.quote}
+</motion.p>
+
                     </div>
                   </div>
                 </motion.div>
