@@ -16,6 +16,7 @@ const settings = {
   card_1: {
     title: 'Adaptive for All Exams',
     content: 'Comprehensive coverage for WAEC, JAMB, NECO, Post-UTME with department-level filtering to match your specific course requirements.',
+    image: 'https://framerusercontent.com/images/X87jAlbYbJ0hdTyTZ6QIMoQoOo.svg'
   },
   card_2: {
     title: 'Offline-First PWA',
