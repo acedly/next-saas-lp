@@ -12,7 +12,7 @@ const settings = {
     href: '#'
   },
   secondaryCTA: {
-    content: 'Join the Waitlist',
+    content: 'Join Acedly Waitlist',
     href: '#'
   }
 }
