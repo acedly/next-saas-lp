@@ -11,7 +11,7 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Ace any Exams',
+  headline: 'Ace Any Exam with AI-Powered CBT Challenges',
   subheadline: 'Master University, WAEC, JAMB, Post-UTME, and more — with Nigeria’s smartest study platform.',
   mainCTA: {
     content: 'try it for free',
