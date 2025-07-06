@@ -1,6 +1,6 @@
 'use client'
 
-import { Facebook, Github, Instagram, Youtube, Linkedin } from "lucide-react"
+import { Facebook, Github, Instagram, Youtube, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
 
 const settings = {
@@ -13,7 +13,7 @@ const settings = {
     { title: 'Contact Us', href: '/' },
   ],
   socialMedia: [
-    { title: 'Facebook', icon: Facebook, href: '/' },
+    { title: 'Twitter', icon: Twitter, href: '/' },
     { title: 'Instagram', icon: Instagram, href: '/' },
     { title: 'Linkedin', icon: Linkedin, href: '/' },
     { title: 'Youtube', icon: Youtube, href: '/' },
