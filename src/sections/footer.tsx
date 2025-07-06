@@ -15,7 +15,7 @@ const settings = {
   socialMedia: [
     { title: 'Facebook', icon: Facebook, href: '/' },
     { title: 'Instagram', icon: Instagram, href: '/' },
-    { title: 'Github', icon: Github, href: '/' },
+    { title: 'Linkedin', icon: Linkedin, href: '/' },
     { title: 'Youtube', icon: Youtube, href: '/' },
   ],
   copyright: 'Built by Abdulmajeed | © 2025 Acedly. All rights reserved.'
