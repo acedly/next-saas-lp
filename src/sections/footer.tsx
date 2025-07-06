@@ -1,6 +1,6 @@
 'use client'
 
-import { Facebook, Github, Instagram, Youtube, Linkedin, Twitter } from "lucide-react"
+import { Instagram, Youtube, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
 
 const settings = {
