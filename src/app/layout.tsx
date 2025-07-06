@@ -10,7 +10,7 @@ const dmSans = DM_Sans({
 
 
 export const metadata: Metadata = {
-  title: "Acedly - Ace Any Exam with AI-Powered CBT Challenges",
+  title: "Acedly - Ace Any Exam with AI-Powered CBT",
   description: "Master WAEC, JAMB, Post-UTME, and more with Nigeria's smartest study platform. AI-powered CBT challenges, gamified learning, and comprehensive exam preparation.",
   icons: {
     icon: '/favicon.ico',
