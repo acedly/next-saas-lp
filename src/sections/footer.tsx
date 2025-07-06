@@ -13,9 +13,9 @@ const settings = {
     { title: 'Contact Us', href: '/' },
   ],
   socialMedia: [
-    { title: 'Twitter', icon: Twitter, href: '/' },
-    { title: 'Instagram', icon: Instagram, href: '/' },
-    { title: 'Linkedin', icon: Linkedin, href: '/' },
+    { title: 'Twitter', icon: Twitter, href: 'https://x.com/acedlyapp' },
+    { title: 'Instagram', icon: Instagram, href: 'https://instagram.com/acedlyapp' },
+    { title: 'Linkedin', icon: Linkedin, href: 'https://likedin.com/company/acedlyapp' },
     { title: 'Youtube', icon: Youtube, href: '/' },
   ],
   copyright: 'Built by BALX Studio | © 2025 Acedly. All rights reserved.'
