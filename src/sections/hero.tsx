@@ -21,7 +21,7 @@ const settings = {
     content: 'Explore All Features',
     href: 'https://cbt.acedly.xyz'
   },
-  illustration: '/Screenshot 2025-07-06 122833.png',
+  illustration: '/Screenshot 2025-07-07 075435.png',
   reviews: [
     {
       name: "Adebayo Ogundimu",
