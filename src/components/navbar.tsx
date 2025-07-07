@@ -18,7 +18,7 @@ const settings = {
   ],
   cta: {
     content: 'Start CBT Challenge',
-    href: '/'
+    href: 'https://cbt.acedly.xyz'
   }
 }
 
@@ -34,7 +34,7 @@ export default function Navbar() {
       {/* Logo */}
       <Link href='/' title="Home" id="Logo">
         <Image 
-          src="/acenav.png" 
+          src="/favicon.ico" 
           alt="Acedly Logo" 
           width={120} 
           height={40} 
