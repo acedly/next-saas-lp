@@ -15,11 +15,11 @@ const settings = {
   subheadline: 'Master WAEC, JAMB, Post-UTME, and more — with Nigeria\'s smartest study platform.',
   mainCTA: {
     content: 'Start a CBT Challenge',
-    href: '#'
+    href: 'https://cbt.acedly.xyz'
   },
   secondaryCTA: {
     content: 'Explore All Features',
-    href: '#'
+    href: 'https://cbt.acedly.xyz'
   },
   illustration: '/Screenshot 2025-07-06 122833.png',
   reviews: [
