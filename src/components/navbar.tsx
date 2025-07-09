@@ -18,7 +18,7 @@ const settings = {
   ],
   cta: {
     content: 'Start CBT Challenge',
-    href: 'https://cbt.acedly.xyz'
+    href: '#'
   }
 }
 
