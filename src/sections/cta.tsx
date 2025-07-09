@@ -9,7 +9,7 @@ const settings = {
   description: 'Join thousands of Nigerian students who are already acing their exams with Acedly\'s AI-powered CBT challenges.',
   CTA: {
     content: 'Launch CBT Challenge',
-    href: 'https://cbt.acedly.xyz'
+    href: '#'
   },
   secondaryCTA: {
     content: 'Join Acedly Waitlist',
