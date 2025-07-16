@@ -17,7 +17,7 @@ const settings = {
     { name: 'FAQ', href: '#faq' },
   ],
   cta: {
-    content: 'Start CBT Challenge',
+    content: 'Get Started',
     href: '#'
   }
 }
