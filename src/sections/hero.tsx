@@ -11,14 +11,14 @@ import Link from "next/link";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 const settings = {
-  headline: 'Ace Any Exam with AI- Powered CBT',
-  subheadline: 'Master WAEC, JAMB, Post-UTME, and more — with Nigeria\'s smartest study platform.',
+  headline: 'Study Smarter. Pass Faster.',
+  subheadline: 'AI-powered tools to help Nigerian students ace WAEC, JAMB, Post-UTME, and university exams — with less stress and more results.',
   mainCTA: {
-    content: 'Start a CBT Challenge',
+    content: 'Start Free',
     href: '#'
   },
   secondaryCTA: {
-    content: 'Explore All Features',
+    content: 'Try Daily Pass – ₦200',
     href: '#'
   },
   illustration: '/Screenshot 2025-07-07 075435.png',

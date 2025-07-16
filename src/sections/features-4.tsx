@@ -11,15 +11,15 @@ import Link from "next/link"
 const settings = {
   badge: {
     number: 4,
-    text: 'REWARDS & ACHIEVEMENTS',
+    text: 'POINTS & PROGRESS TRACKING',
   },
-  title: 'Track Progress, Earn Rewards',
-  description: 'Stay motivated with our comprehensive tracking system. Earn badges, climb leaderboards, and unlock achievements as you master each subject.',
+  title: 'Make Studying Feel Like a Game',
+  description: 'Earn XP for every test, summary, or task you complete. Track your streaks and unlock motivation.',
   card_1: {
-    title: 'Points, Badges & Leaderboards',
-    content: "Gamify your learning experience! Earn XP points for every correct answer, unlock exclusive badges for milestones, and compete with thousands of students on our real-time leaderboards.",
+    title: 'Daily XP Tracker',
+    content: "Track your daily study progress with XP points. See your learning streaks and stay motivated to study consistently.",
     CTA: {
-      content: 'Try Free Challenge Now',
+      content: 'Start Tracking Progress',
       href: '#'
     },
     labels: [
@@ -42,12 +42,12 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Task & Progress Tracker',
-    content: 'Monitor your study goals, track completion rates, and visualize your improvement across all subjects with detailed analytics.',
+    title: 'Rank Up as You Study',
+    content: 'Level up your study game as you complete more tasks and achieve higher scores in practice sessions.',
   },
   card_3: {
-    title: 'Study Streaks & Reminders',
-    content: 'Build consistent study habits with streak tracking and smart reminders for study sessions, prayer times, and wellness breaks.',
+    title: 'Visual Stats for Growth',
+    content: 'See your improvement over time with visual statistics and progress charts. (More rewards coming soon)',
   },
 }
 

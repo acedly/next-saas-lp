@@ -12,24 +12,24 @@ const settings = {
   title: 'Frequently asked questions',
   faqs: [
     {
-      question: 'Is Acedly free to use?',
-      answer: 'Yes! Acedly offers 5 free CBT challenges per month. You can upgrade to a daily pass (₦200) for unlimited access or go Pro (₦2,000/month) for the full AI ecosystem.',
+      question: 'Is Acedly for university students or JAMB students?',
+      answer: 'Both. Acedly works for WAEC, JAMB, Post-UTME, and undergrad-level revision.',
     },
     {
-      question: 'Can I use Acedly without internet?',
-      answer: 'Absolutely! Acedly is a Progressive Web App (PWA) that works offline. Download questions when you have internet, then practice anywhere without connectivity.',
+      question: 'Do I need a laptop?',
+      answer: 'No. Acedly is a mobile-first web app. Works on most smartphones and low-end devices.',
     },
     {
-      question: 'Does Acedly cover WAEC, JAMB, and Post-UTME?',
-      answer: 'Yes! Acedly covers all major Nigerian exams including WAEC, JAMB, NECO, and Post-UTME with department-specific filtering for your course requirements.',
+      question: 'Does it require internet?',
+      answer: 'Yes, but it\'s optimized to work even on slow or unstable connections.',
     },
     {
-      question: 'What\'s the difference between Free and Pro?',
-      answer: 'Free gives you 5 challenges monthly with basic features. Pro unlocks unlimited challenges, AI tools (summarizer, flashcards), smart planner, PDF tools, and advanced analytics.',
+      question: 'Is the AI free to use?',
+      answer: 'Basic tools like the PDF summarizer and question generator are available under Daily Pass and PRO plans.',
     },
     {
-      question: 'Can I refer my friends and get free access?',
-      answer: 'Yes! Our referral program gives you free challenges when friends sign up. Successful referrals can unlock daily passes and Pro features.',
+      question: 'Can I cancel anytime?',
+      answer: 'Yes. You\'re not locked in. Use the Free plan or pay only when needed.',
     },
   ]
 }

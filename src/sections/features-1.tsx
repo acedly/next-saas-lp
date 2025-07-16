@@ -4,18 +4,20 @@ import Badge from "@/components/badge"
 import Card from "@/components/card"
 import Carousel from "@/components/carousel"
 import SlideEffect from "@/components/slide-effect"
+import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 const settings = {
   badge: {
     number: 1,
-    text: 'CBT SHOULDN\'T BE GUESSWORK',
+    text: 'CBT CHALLENGE MODE',
   },
-  title: 'CBT Shouldn\'t Be Guesswork. It Should Be a Game.',
-  description: 'Experience the smartest way to prepare for Nigerian exams with AI-powered challenges, real-time competition, and gamified learning.',
+  title: 'Practice Past Questions Like a Pro',
+  description: 'Sharpen your exam skills with our fast, gamified CBT system. Practice by subject or topic, track your scores, and compete with yourself.',
   card_1: {
-    title: 'AI-Generated + Past Questions',
-    content: 'Get unlimited practice with AI-generated questions plus comprehensive past question banks for WAEC, JAMB, NECO, and Post-UTME.',
+    title: 'Real Past Questions',
+    content: 'Access comprehensive past question banks for WAEC, JAMB, NECO, and Post-UTME with authentic exam questions.',
     carousel_images: [
       'https://i0.wp.com/kwarastate.gov.ng/wp-content/uploads/unilorin-logo.jpeg',
       'https://carissahillsinternationalschools.sch.ng/wp-content/uploads/2024/11/waec-logo.png',
@@ -28,17 +30,20 @@ const settings = {
     ]
   },
   card_2: {
-    title: 'Timed Quizzes & Duels',
-    content: 'Challenge yourself with timed quizzes, compete on leaderboards, and duel with friends to make studying competitive and fun.'
+    title: 'Instant Results & Accuracy Stats',
+    content: 'Get immediate feedback on your performance with detailed accuracy statistics and progress tracking.'
   },
   card_3: {
-    title: 'Earn Points & Ranks',
-    content: 'Level up your study game! Earn XP points, unlock achievements, and climb the ranks as you master each subject.'
+    title: 'Practice Streaks + XP System',
+    content: 'Build consistent study habits with streak tracking and earn XP points for every practice session completed.'
   },
   card_4: {
-    title: 'Learn From Mistakes',
-    content: 'Retry packs, review detailed explanations, and track your improvement over time. Every mistake becomes a stepping stone to success.',
-    image: 'https://w7.pngwing.com/pngs/146/861/png-transparent-loop-arrow-refresh-repeat-reload-sync-3d-icon.png?scale-down-to=512',
+    title: 'Subject Filters and Random Mode',
+    content: 'Practice by specific subjects or topics, or challenge yourself with random questions across all subjects.',
+    cta: {
+      content: 'Practice CBT Now',
+      href: '#'
+    }
   },
 }
 
@@ -87,13 +92,14 @@ export default function Features1() {
 
         {/* card 4 */}
         <SlideEffect direction="left" className="col-span-1 lg:col-span-3 h-full" isSpring={false}>
-          <Card className="flex flex-col lg:flex-row justify-center items-center">
-            <div className="space-y-3 md:space-y-5">
+          <Card>
+            <div className="space-y-3 md:space-y-5 mb-6">
               <h3 className="text-xl md:text-title text-black font-medium">{settings.card_4.title}</h3>
               <p>{settings.card_4.content}</p>
             </div>
-
-            <Image className="w-32 my-auto mx-auto" src={settings.card_4.image} alt={settings.card_4.title} width={512} height={512} />
+            <Link href={settings.card_4.cta.href}>
+              <Button variant="accent">{settings.card_4.cta.content}</Button>
+            </Link>
           </Card>
         </SlideEffect>
       </div>

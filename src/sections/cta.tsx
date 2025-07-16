@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const settings = {
-  title: 'Start Practicing Smarter. Right Now.',
-  description: 'Join thousands of Nigerian students who are already acing their exams with Acedly\'s AI-powered CBT challenges.',
+  title: 'Ready to Pass Smarter, Not Harder?',
+  description: 'Join thousands of Nigerian students using AI to crush exams. No stress. No clutter. Just results.',
   CTA: {
-    content: 'Launch CBT Challenge',
+    content: 'Start Free Now',
     href: '#'
   },
   secondaryCTA: {
-    content: 'Join Acedly Waitlist',
+    content: 'Try Daily Pass',
     href: '#'
   }
 }

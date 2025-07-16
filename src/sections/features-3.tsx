@@ -3,25 +3,31 @@
 import Badge from "@/components/badge"
 import Card from "@/components/card"
 import SlideEffect from "@/components/slide-effect"
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 const settings = {
   badge: {
     number: 3,
-    text: 'THE ACEDLY ADVANTAGE',
+    text: 'ORGANIZED STUDY LIBRARY',
   },
-  title: 'More Than CBT. Acedly is Your All-In-One Study Sidekick.',
-  description: 'Today CBT. Tomorrow everything else. Experience the future of studying with our comprehensive ecosystem of AI-powered tools.',
+  title: 'All Your Materials, One Clean Library',
+  description: 'No more scattered notes. Find exactly what you need — by subject, exam, or topic.',
   card_1: {
-    title: 'AI Tools Lab',
-    content: 'Unlock powerful AI tools: summarizer, cram sheets, flashcard generator, and more to supercharge your study sessions.',
+    title: 'WAEC & JAMB Syllabi',
+    content: 'Access complete syllabi for all major Nigerian exams, organized by subject and topic.',
   },
   card_2: {
-    title: 'Smart Planner & Focus',
-    content: 'Organize your study schedule with smart planning tools and built-in Pomodoro timer for maximum productivity.',
+    title: 'Flashcards and Cram Sheets',
+    content: 'Quick-reference materials and flashcards for last-minute revision and memory reinforcement.',
   },
   card_3: {
-    title: 'Study Community',
-    content: 'Access public study library, join study groups, and get wellness reminders to maintain a balanced study life.',
+    title: 'Downloadable Guides',
+    content: 'Download study guides and materials for offline access, organized by topic-based structure.',
+  },
+  cta: {
+    content: 'Explore Library',
+    href: '#'
   },
 }
 
@@ -67,6 +73,13 @@ export default function Features3() {
           </Card>
         </SlideEffect>
       </div>
+
+      {/* CTA */}
+      <SlideEffect className="text-center">
+        <Link href={settings.cta.href}>
+          <Button size="lg">{settings.cta.content}</Button>
+        </Link>
+      </SlideEffect>
     </div>
   )
 }

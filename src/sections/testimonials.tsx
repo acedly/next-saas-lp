@@ -15,37 +15,37 @@ const settings = {
   testimonials: [
     {
       quote:
-        "Helped me prep for my Post-UTME in 2 days! The AI questions were spot-on and the timed practice made me confident during the real exam.",
-      name: "Adebayo Ogundimu",
-      designation: "Computer Science, University of Lagos",
+        "Acedly is saving me so much time. I use it every day to revise and get my notes summarized before class. CBT mode feels like the real exam.",
+      name: "Mary E.",
+      designation: "200L Student, UNILORIN",
       src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "The leaderboard kept me coming back daily. I went from struggling with Chemistry to scoring 85% in my JAMB mock. Acedly is a game-changer!",
+        "The AI summarizer helped me understand complex topics quickly. I went from struggling with Chemistry to scoring 85% in my JAMB mock.",
       name: "Fatima Ibrahim",
-      designation: "Medicine, Ahmadu Bello University",
+      designation: "JAMB Candidate, Kano",
       src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "No fluff. Just fire features that work. The offline mode saved me during NEPA strikes, and I could still practice for my WAEC.",
+        "The CBT practice mode is exactly like the real JAMB exam. It helped me get familiar with the interface and timing.",
       name: "Chioma Okeke",
-      designation: "Engineering, University of Nigeria",
+      designation: "SS3 Student, Lagos",
       src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "The AI flashcards and cram sheets are incredible. I can summarize entire topics in minutes and the explanations are so clear.",
+        "I love how I can upload my lecture notes and get instant summaries. Makes revision so much easier before exams.",
       name: "Emeka Nwosu",
-      designation: "Law, University of Ibadan",
+      designation: "300L Student, UI",
       src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "Best ₦200 I ever spent! The daily pass gave me unlimited practice and I improved my weak subjects before my final exams.",
+        "Best ₦200 I ever spent! The daily pass gave me unlimited access to all features. Perfect for intensive exam prep.",
       name: "Khadijah Yusuf",
-      designation: "Pharmacy, University of Ilorin",
+      designation: "Post-UTME Candidate",
       src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ]
