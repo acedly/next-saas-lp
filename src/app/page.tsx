@@ -18,8 +18,8 @@ export default function HomePage() {
       <Features2 />
       <Features3 />
       <Features4 />
-      <Testimonials />
       <Pricing />
+      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />
