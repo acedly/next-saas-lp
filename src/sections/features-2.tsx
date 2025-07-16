@@ -25,10 +25,6 @@ const settings = {
     title: 'Essay/Letter Coach (Beta)',
     content: 'Get AI-powered feedback on your essays and formal letters to improve your writing skills.',
   },
-  cta: {
-    content: 'Try AI Labs',
-    href: '#'
-  },
 }
 
 export default function Features2() {
@@ -73,13 +69,5 @@ export default function Features2() {
           </Card>
         </SlideEffect>
       </div>
-
-      {/* CTA */}
-      <SlideEffect className="text-center">
-        <Link href={settings.cta.href}>
-          <Button size="lg">{settings.cta.content}</Button>
-        </Link>
-      </SlideEffect>
-    </div>
   )
 }
